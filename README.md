@@ -1,4 +1,4 @@
 rudeboojay.github.io
 ====================
 
-Answers a key question in life
+Static page for an innovative new application for young professionals.
