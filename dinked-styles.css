@@ -1,0 +1,248 @@
+@font-face {
+	font-family: Gaspar-Bold;
+	src: url(/assets/fonts/gaspar/Gaspar_Bold.otf);
+}
+@font-face {
+	font-family: Gaspar;
+	src: url(/assets/fonts/gaspar/Gaspar_Regular.otf);
+}
+@font-face {
+	font-family: Miama;
+	src: url(/assets/fonts/Miama/Miama.otf);
+}
+
+* {
+	margin: 0;
+}
+
+html, body {
+	padding: 0;
+	height: 100%;
+	font-size: 1.05em;
+	font-family: Gaspar;
+	color: #181919;
+}
+
+html {
+	background-color: #f5fffa;
+	background: radial-gradient(circle, #fbfffd, #f5fffa);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+body {
+	opacity: 1;
+	-webkit-transition: opacity 1.2s ease-in;
+	-moz-transition: opacity 1.2s ease-in;
+	-ms-transition: opacity 1.2s ease-in;
+	-o-transition: opacity 1.2s ease-in;
+	transition: opacity 1.2s ease-in;
+	background: transparent;
+}
+.hide {
+	opacity: 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+#logout {
+	position: fixed;
+	top:0;
+	right:5px;
+}
+#logout a {
+	color: #aaa;
+}
+/*Font styles*/
+.big-as-fuck {
+	font-size: 7em;
+}
+.smaller {
+	font-size: .7em;
+}
+.normal {
+	font-size: .9em;
+}
+.larger {
+	font-size: 1.5em;
+}
+.gasp-b {
+	font-family: Gaspar-Bold;
+}
+.gasp {
+	font-family: Gaspar;
+}
+.miama {
+	font-family: Miama;
+}
+.center {
+	text-align: center;
+}
+.di-black {
+	color: #181919;
+}
+.di-white {
+	color: #fbfffd;
+}
+.di-muted {
+	color: #bbb;
+}
+.std-shadow {
+ 	text-shadow: 2px 0px 2px #888;
+}
+.less-shadow {
+	text-shadow: 1px 0px 1px #888;
+}
+.no-shadow {
+	text-shadow: 0 0 0 #fff;
+}
+/*Misc pad and margin*/
+.pad {
+	padding: 10px;
+}
+.xtra-pad-top {
+	padding-top: 100px;
+}
+.marg {
+	margin: 10px;
+}
+
+/*The meat and or soy of the styles*/
+header {
+  width: 100%;
+  background: transparent;
+  text-align:center;
+  padding-top: 40px;
+}
+.info-links {
+	padding: 20px;
+}
+	.info-links a {
+		display:inline-block;
+	}
+.row {
+	background:transparent;
+	width: 100%;
+	height: auto;
+	margin: 20px 0 40px 0;
+}
+
+.center-me {
+	width: 90%;
+	margin: 0 auto;
+}
+.prof-pic-header {
+	margin: 0;
+	margin-bottom: 2px;
+}
+.prof-pic {
+	border-radius: 5px;
+}
+
+/*For da footer*/
+.main {
+	background: transparent;
+	min-height: 90%;
+	height: 100%;
+	margin: 0 auto -80px; /* the bottom margin is the negative value of the footer's height */
+}
+.push {
+	height: 100px;
+}
+footer {
+	height: 100px; /* '.push' must be the same height as 'footer' */
+}
+footer {	
+	position: relative;
+	vertical-align: middle;
+	color:black;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+	footer .footer-item {
+		display:inline-block;
+		float:right;
+		background: transparent;
+		width: 50px;
+		height: 45px;
+		margin: 0 10px;
+	}
+		footer .footer-item p {
+			width: 100%;
+			word-wrap: break-word;
+			color: #181919;
+			font-size:.8em;
+			text-shadow: 1px 1px 1px #ccc;
+		}
+
+	#footer-twitter {
+		background-image: url(/assets/icons/twitter-blue.png);
+		background-repeat: no-repeat;
+	}
+/*	#footer-twitter:hover {
+		background-image: url(/assets/icons/twitter-white.png);
+		background-repeat: no-repeat;
+	}*/
+	#footer-fb {
+		background-image: url(/assets/icons/fb-f-blue.png);
+		background-repeat: no-repeat;
+	}
+/*	#footer-fb:hover {
+		background-image: url(/assets/icons/fb-f-white.png);
+		background-repeat: no-repeat;
+	}*/
+	#footer-boojay {
+		width: 95px;
+	}
+	#footer-boojay p {
+		line-height: 1.55em;
+	}
+		div.boojay-hack {
+			display: inline-block;
+			margin:0;
+			padding:0;
+			color: #181919;
+			height:33px;
+		}
+/*		div.boojay-hack:hover {
+			color: #fbfffd;
+		}*/
+.spacer {
+	width:32px;
+	height:40px;
+	background: transparent !important;
+}
+
+/*for testing*/
+/*	p.test-c {
+		color: white !important;
+		text-shadow: 1px 1px 1px black !important;
+		font-size:1em;
+	}*/
+.mint-blue {
+	color: #DBFEF8;
+}
+.blue-ice {
+	color: #DAF4F0;
+}
+/*army uniform is dark*/
+.army-uniform {
+	color: #353F3E;
+}
+.muted-moon {
+	color: #DBE6E0;
+}
+.muted-brushed-aluminum {
+	color: #B6C5BE;
+}
+.isle-royale {
+	color: #426352;
+}
+.fishermans-float {
+	color: #607C6E;
+}
+.honeydew {
+	color: #F0FFF0;
+}
