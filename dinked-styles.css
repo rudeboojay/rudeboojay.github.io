@@ -1,14 +1,14 @@
 @font-face {
 	font-family: Gaspar-Bold;
-	src: url(/assets/fonts/gaspar/Gaspar_Bold.otf);
+	src: url(./fonts/gaspar/Gaspar_Bold.otf);
 }
 @font-face {
 	font-family: Gaspar;
-	src: url(/assets/fonts/gaspar/Gaspar_Regular.otf);
+	src: url(./fonts/gaspar/Gaspar_Regular.otf);
 }
 @font-face {
 	font-family: Miama;
-	src: url(/assets/fonts/Miama/Miama.otf);
+	src: url(./fonts/Miama/Miama.otf);
 }
 
 * {
