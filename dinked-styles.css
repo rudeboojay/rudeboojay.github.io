@@ -178,21 +178,15 @@ footer {
 		}
 
 	#footer-twitter {
-		background-image: url(/assets/icons/twitter-blue.png);
+		background-image: url(./icons/twitter-blue.png);
 		background-repeat: no-repeat;
 	}
-/*	#footer-twitter:hover {
-		background-image: url(/assets/icons/twitter-white.png);
-		background-repeat: no-repeat;
-	}*/
+
 	#footer-fb {
-		background-image: url(/assets/icons/fb-f-blue.png);
+		background-image: url(./icons/fb-f-blue.png);
 		background-repeat: no-repeat;
 	}
-/*	#footer-fb:hover {
-		background-image: url(/assets/icons/fb-f-white.png);
-		background-repeat: no-repeat;
-	}*/
+
 	#footer-boojay {
 		width: 95px;
 	}
@@ -215,12 +209,7 @@ footer {
 	background: transparent !important;
 }
 
-/*for testing*/
-/*	p.test-c {
-		color: white !important;
-		text-shadow: 1px 1px 1px black !important;
-		font-size:1em;
-	}*/
+
 .mint-blue {
 	color: #DBFEF8;
 }
