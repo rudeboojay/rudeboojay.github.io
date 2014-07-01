@@ -29,7 +29,7 @@
 		$("body").addClass("hide");
 	</script>
 		<header class="big-as-fuck gasp-b xtra-pad-top"> 
-			dinked.in
+			<div id="dink">dinked.in</div>
 		</header>
 		<div class="row">
 			<div class="center-me center">
@@ -52,7 +52,7 @@
 	</div>
 </div> <!-- /.main -->
 	<footer>
-		<a href="#">
+		<a href="#" class="disabled">
 			<div class="footer-item" id="footer-boojay">
 				<p class="smaller less-shadow"> </p>
 				<p class="boojay">
@@ -84,4 +84,25 @@
 
 	</footer>
 </body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="./jquery.fittext.js"></script>
+<script>
+    /********************************
+    * Use FitText.js (available on GitHub)
+    *   - Responsive: scales text with window size
+    *   - Customizable: takes two arguments, explained below
+    * 
+    *           () the compressor, type: float, optional
+    *
+    *                            "works like a guitar amp"
+    *                             determines how aggressively to scale
+    *                             1 is default
+    *
+    *           () minFontSize & maxFontStize, type: dict, optional
+    *
+    *                            pretty self explanatory
+    *                            the keys take pixel values
+    *****************************/
+    jQuery("#dink").fitText(.7, {minFontSize: '40px', maxFontSize: '300px'});
+</script> 
 </html>
