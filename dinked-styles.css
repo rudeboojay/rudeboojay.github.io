@@ -188,7 +188,7 @@ footer {
 	}
 
 	#footer-boojay {
-		width: 95px;
+		width: 100px;
 	}
 	#footer-boojay p {
 		line-height: 1.55em;
@@ -198,7 +198,7 @@ footer {
 			margin:0;
 			padding:0;
 			color: #181919;
-			height:33px;
+			height:35px;
 		}
 /*		div.boojay-hack:hover {
 			color: #fbfffd;
