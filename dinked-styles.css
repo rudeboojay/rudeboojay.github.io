@@ -180,11 +180,13 @@ footer {
 	#footer-twitter {
 		background-image: url(./icons/twitter-blue.png);
 		background-repeat: no-repeat;
+		margin-top:10px;
 	}
 
 	#footer-fb {
 		background-image: url(./icons/fb-f-blue.png);
 		background-repeat: no-repeat;
+		margin-top: 10px;
 	}
 
 	#footer-boojay {
