@@ -9,7 +9,7 @@
     <meta property="og:site_name" content="dinked.in" />
     <meta property="og:title" content="dinked.in: it's time to get profesh"/>
     <meta property="og:description" content="'To dink or not to dink?' That is the question." />
-    <meta property="og:image" content="http://dinked.in/icons/dinked-in-2.png">
+    <meta property="og:image" content=""> <!-- TODO logo -->
     <meta property="og:url" content="http://dinked.in/">
     
     <title>dinked.in | dinking for professionals </title>
